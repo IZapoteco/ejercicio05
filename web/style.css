@@ -1,0 +1,43 @@
+/* typography */
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th, tfoot th {
+  font-family: 'Roboto', sans-serif;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: left;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+thead, tfoot {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+thead th, tfoot th, tfoot td {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+  border: 5px   #cb4335;
+}
+
+tbody tr:nth-child(odd) { /* Color de fondo*/
+  background-color:   #f9e79f ;
+}
+
+table {
+  background-color: #83be87;
+}
